@@ -7,9 +7,9 @@ It allows standard/custom objects or fields.
 All fields need to have the following syntax: {!object.field}
 
 Example:
-```python
-HELLO {!Account.LastName}, how are you? 
-Im here to warn you that {!Account.Name} has an {!Contract.Status} contract term 
+```
+Hello {!Account.LastName}, how are you? 
+I'm here to warn you that {!Account.Name} has an {!Contract.Status} contract term 
 {!Contract.ContractTerm} with a new case: {!Case.Subject}
 ```
 
