@@ -19,7 +19,7 @@ public with sharing class EmailTemplateHelperTest {
                 
         Contract contract = new Contract(
             ContractTerm = 24,
-			StartDate = date.parse('19/04/2001'),
+			StartDate = date.parse( '19/04/2001' ),
 			Status = 'Active'
         );
 
@@ -29,6 +29,6 @@ public with sharing class EmailTemplateHelperTest {
 
         String bodyReturned = EmailTemplateHelper.format( htmlBody, new List<SObject> { acc, contract, caze } );
         
-        System.assert( htmlBody != bodyReturned);
+        System.assert( htmlBody != bodyReturned );
     }
 }
