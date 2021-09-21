@@ -16,7 +16,7 @@ I'm here to warn you that {!Account.Name} has an {!Contract.Status} contract ter
 ## Usage
 
 ```java
-EmailTemplateHelper.format( htmlBody, new List<SObject> {SObject1, SObject2, CustomSObject3} );
+EmailTemplateHelper.format( htmlBody, new List<SObject> { SObject1, SObject2, CustomSObject3 } );
 ```
 
 ## Contributing
